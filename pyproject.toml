@@ -1,8 +1,5 @@
 # pyproject.toml (fully converted for Poetry)
 
-[project]
-requires-python = ">=3.11"
-
 [tool.poetry]
 name = "snyker"
 version = "0.2.0"
@@ -32,7 +29,7 @@ pydantic = ">=2.0"
 flake8 = "^7.2.0"
 black = "^25.1.0"
 pytest = "^8.3.5"
-werkzeug = "^3.0.5"
+werkzeug = "2.2.3"
 
 # The build-system section now points to Poetry's build backend
 [build-system]
